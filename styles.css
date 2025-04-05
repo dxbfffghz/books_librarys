@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  nav {
+    background-color: #003366;
+    padding: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    background-color: #fff;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 18px;
+  }
+  
+  h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: white;
+  }
+  
+  h2 {
+    color: #4a90e2;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  /* Кнопка тёмной темы */
+.theme-btn {
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-top: -60px;
+    margin-right: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .theme-btn:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Анимация ссылок в меню */
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  nav {
+    display: inline-block;
+    width: 80%;
+}
+  
+  nav a:hover {
+    color: #FFD700;
+    transform: scale(1.1);
+  }
+
+  
+  /* Темная тема */
+  body.dark {
+    background-color: #1e1e1e;
+    color: #ddd;
+  }
+  
+  body.dark header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark nav {
+    background-color: #111;
+  }
+  
+  body.dark main {
+    background-color: #2b2b2b;
+    color: #ddd;
+  }
+  
+  body.dark footer {
+    background-color: #111;
+    color: #ccc;
+  }
+  
+  body.dark .theme-btn {
+    background-color: #333;
+    color: #fff;
+    border-color: #fff;
+  }
+  .grid img {
+    width: 100%;
+}
