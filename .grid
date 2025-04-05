@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+}
+.grid img {
+    width: 100%;
+}
+.grid {
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
